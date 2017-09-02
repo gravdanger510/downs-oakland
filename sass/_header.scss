@@ -2,6 +2,7 @@ header {
   padding: $small-spacing;
   position: fixed;
   width: 100%;
+  z-index: $header-z-index;
 }
 
 .site-branding {
@@ -13,6 +14,16 @@ header {
   }
 }
 
-.site-navigation {
+.main-navigation {
+  color: $white;
   float: right;
+  width: unset;
+
+  li {
+    text-decoration: none;
+  }
+}
+
+#site-navigation {
+  width: auto;
 }

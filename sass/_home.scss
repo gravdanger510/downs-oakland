@@ -1,5 +1,31 @@
 .hero-container {
-  height: 80vh;
+  font-family: Raleway;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
   width: 100%;
-  background-color: blue;
+  z-index: $base-z-index;
+}
+
+video {
+  height: 100%;
+  width: auto;
+}
+
+.hero-content {
+  color: $white;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  text-shadow: 2px 2px 15px rgba(0,0,0,.3);
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.hero-header {
+  font-size: $x-large-font-size;
+}
+
+.hero-subheader {
+  font-size: $large-font-size;
 }

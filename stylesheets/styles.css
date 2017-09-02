@@ -68,26 +68,68 @@ header {
   padding: 0.5em;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
-/* line 7, ../sass/_header.scss */
+/* line 8, ../sass/_header.scss */
 .site-branding {
   float: left;
 }
-/* line 10, ../sass/_header.scss */
+/* line 11, ../sass/_header.scss */
 .site-branding img {
   height: auto;
-  width: 4em;
+  width: 13em;
 }
 
-/* line 16, ../sass/_header.scss */
-.site-navigation {
+/* line 17, ../sass/_header.scss */
+.main-navigation {
+  color: #FFF;
   float: right;
+  width: unset;
+}
+/* line 22, ../sass/_header.scss */
+.main-navigation li {
+  text-decoration: none;
+}
+
+/* line 27, ../sass/_header.scss */
+#site-navigation {
+  width: auto;
 }
 
 /* line 1, ../sass/_home.scss */
 .hero-container {
-  height: 80vh;
+  font-family: Raleway;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
   width: 100%;
-  background-color: blue;
+  z-index: 0;
+}
+
+/* line 10, ../sass/_home.scss */
+video {
+  height: 100%;
+  width: auto;
+}
+
+/* line 15, ../sass/_home.scss */
+.hero-content {
+  color: #FFF;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+/* line 25, ../sass/_home.scss */
+.hero-header {
+  font-size: 4em;
+}
+
+/* line 29, ../sass/_home.scss */
+.hero-subheader {
+  font-size: 2em;
 }

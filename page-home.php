@@ -13,27 +13,17 @@ get_header(); ?>
 		<main id="main" class="site-main">
 
     <div class="hero-container">
-      <video autoplay loop muted plasinline class="hero-video" type="video/mp4"></video>
+      <video autoplay loop muted plasinline class="hero-video" type="video/mp4">
+        <source src="https://player.vimeo.com/external/212286321.hd.mp4?s=f2187a3be078ff189be55ac6ce307e306793693e&profile_id=174" />
+      </video>
+      <div class="hero-content">
+        <h1 class="hero-header">Your Church Family Is Here</h1>
+        <h2 class="hero-subheader">Sundays at 10:30</h2>
+      </div>
     </div>
-
-		<?php
-		while ( have_posts() ) : the_post();
-
-			get_template_part( 'template-parts/content', get_post_type() );
-
-			the_post_navigation();
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();
