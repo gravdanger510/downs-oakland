@@ -14,7 +14,7 @@ get_header(); ?>
 
     <div class="hero-container">
       <video autoplay loop muted plasinline class="hero-video" type="video/mp4">
-        <source src="https://player.vimeo.com/external/212286321.hd.mp4?s=f2187a3be078ff189be55ac6ce307e306793693e&profile_id=174" />
+        <source src="https://player.vimeo.com/external/232157127.hd.mp4?s=5afb8b6971792b44d5c2fd237dcd4dd9fdcc7e68&profile_id=174" />
       </video>
       <div class="hero-content">
         <h1 class="hero-header">Your Church Family Is Here</h1>

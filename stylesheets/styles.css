@@ -108,12 +108,17 @@ header {
 }
 
 /* line 10, ../sass/_home.scss */
-video {
-  height: 100%;
+.hero-video {
+  height: auto;
+  width: 100%;
+}
+/* line 14, ../sass/_home.scss */
+.hero-video.tall {
   width: auto;
+  height: 100%;
 }
 
-/* line 15, ../sass/_home.scss */
+/* line 20, ../sass/_home.scss */
 .hero-content {
   color: #FFF;
   position: absolute;
@@ -124,12 +129,12 @@ video {
   top: 50%;
 }
 
-/* line 25, ../sass/_home.scss */
+/* line 30, ../sass/_home.scss */
 .hero-header {
   font-size: 4em;
 }
 
-/* line 29, ../sass/_home.scss */
+/* line 34, ../sass/_home.scss */
 .hero-subheader {
   font-size: 2em;
 }

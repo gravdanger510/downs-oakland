@@ -7,9 +7,14 @@
   z-index: $base-z-index;
 }
 
-video {
-  height: 100%;
-  width: auto;
+.hero-video {
+  height: auto;
+  width: 100%;
+
+  &.tall {
+    width: auto;
+    height: 100%;
+  }
 }
 
 .hero-content {
