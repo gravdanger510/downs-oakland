@@ -1,0 +1,51 @@
+footer {
+  width: 100%;
+}
+
+.footer-map-container {
+  height: 18em;
+  width: 100%;
+}
+
+.footer-map {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-bottom {
+  background-color: $black;
+  color: $white;
+  float: left;
+  padding: $section-padding;
+  width: 100%;
+}
+
+.footer-inner-container {
+  align-items: space-around;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-column {
+  float: left;
+  max-width: 20em;
+  width: 50%;
+}
+
+.footer-title {
+  font-size: $medium-font-size;
+  margin-bottom: $small-spacing;
+}
+
+.footer-form {
+  label,
+  input[type="text"],
+  textarea {
+    width: 100%;
+  }
+
+}
+
+.footer-input {
+  margin-bottom: $small-spacing;
+}

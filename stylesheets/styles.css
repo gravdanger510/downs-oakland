@@ -138,3 +138,99 @@ header {
 .hero-subheader {
   font-size: 2em;
 }
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  width: 100%;
+}
+
+/* line 5, ../sass/_footer.scss */
+.footer-map-container {
+  height: 18em;
+  width: 100%;
+}
+
+/* line 10, ../sass/_footer.scss */
+.footer-map {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 15, ../sass/_footer.scss */
+.footer-bottom {
+  background-color: #29292C;
+  color: #FFF;
+  float: left;
+  padding: 5em;
+  width: 100%;
+}
+
+/* line 23, ../sass/_footer.scss */
+.footer-inner-container {
+  align-items: space-around;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 29, ../sass/_footer.scss */
+.footer-column {
+  float: left;
+  max-width: 20em;
+  width: 50%;
+}
+
+/* line 35, ../sass/_footer.scss */
+.footer-title {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* line 41, ../sass/_footer.scss */
+.footer-form label,
+.footer-form input[type="text"],
+.footer-form textarea {
+  width: 100%;
+}
+
+/* line 49, ../sass/_footer.scss */
+.footer-input {
+  margin-bottom: 0.5em;
+}
+
+/* line 1, ../sass/_siteSection.scss */
+.site-section {
+  padding: 5em;
+  width: 100%;
+}
+
+/* line 6, ../sass/_siteSection.scss */
+.dark-section {
+  background-color: #F5F5F5;
+}
+
+/* line 10, ../sass/_siteSection.scss */
+.section-title {
+  text-align: center;
+}
+
+/* line 14, ../sass/_siteSection.scss */
+.inner-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* line 1, ../sass/_type.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+/* line 11, ../sass/_type.scss */
+h1 {
+  font-size: 2em;
+}

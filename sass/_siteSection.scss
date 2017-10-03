@@ -1,0 +1,17 @@
+.site-section {
+  padding: $section-padding;
+  width: 100%;
+}
+
+.dark-section {
+  background-color: $light-gray;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.inner-container {
+  max-width: $site-max-width;
+  margin: 0 auto;
+}

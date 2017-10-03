@@ -1,13 +1,17 @@
 //Homepage
 $hero-container-size: 80vh;
 $logo-width: 13em;
+$site-max-width: 980px;
 
+// Fonts
+$header-font-family: 'Raleway';
 
 // Font Sizes
 $xx-small-font-size: modular-scale(-3);
 $x-small-font-size: modular-scale(-2);
 $small-font-size: modular-scale(-1);
 $base-font-size: 1em;
+$medium-font-size: 1.5em;
 $large-font-size: 2em;
 $x-large-font-size: 4em;
 $xx-large-font-size: modular-scale(6);
@@ -16,10 +20,13 @@ $xx-large-font-size: modular-scale(6);
 $base-spacing: 1em;
 $large-spacing: $base-spacing * 2;
 $small-spacing: $base-spacing / 2;
+$x-small-spacing: $base-spacing / 4;
+$section-padding: $base-spacing * 5;
 
 // Colors
 $black: #29292C;
 $white: #FFF;
+$light-gray: #F5F5F5;
 
 // Z indexes
 $base-z-index: 0;
