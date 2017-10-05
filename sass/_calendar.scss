@@ -1,0 +1,42 @@
+.simcal-current-month,
+.simcal-current-year,
+.simcal-icon-right:before,
+.simcal-icon-left:before,
+ {
+  color: $white;
+}
+
+.simcal-calendar-head {
+  background-color: $main-color;
+
+  tr:first-of-type {
+    border-bottom: $table-border;
+
+    .simcal-nav  {
+      font-size: $medium-font-size;
+      padding: $base-spacing 0;
+    }
+  }
+}
+
+.simcal-week-day {
+  background-color: #E5E5E5;
+  color: $black;
+  font-family: $header-font-family;
+  padding: $base-spacing 0;
+  text-align: left !important;
+
+  &:not(last-of-type) {
+    border-right: $table-border;
+  }
+}
+
+.simcal-day-label.simcal-day-number {
+  font-family: $header-font-family;
+  padding: $small-spacing;
+  text-align: left;
+}
+
+.simcal-day {
+  background-color: $white;
+}

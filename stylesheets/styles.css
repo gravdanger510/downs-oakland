@@ -63,6 +63,53 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 1, ../sass/_calendar.scss */
+.simcal-current-month,
+.simcal-current-year,
+.simcal-icon-right:before,
+.simcal-icon-left:before {
+  color: #FFF;
+}
+
+/* line 9, ../sass/_calendar.scss */
+.simcal-calendar-head {
+  background-color: #0086FA;
+}
+/* line 12, ../sass/_calendar.scss */
+.simcal-calendar-head tr:first-of-type {
+  border-bottom: none;
+}
+/* line 15, ../sass/_calendar.scss */
+.simcal-calendar-head tr:first-of-type .simcal-nav {
+  font-size: 1.5em;
+  padding: 1em 0;
+}
+
+/* line 22, ../sass/_calendar.scss */
+.simcal-week-day {
+  background-color: #E5E5E5;
+  color: #29292C;
+  font-family: "Raleway";
+  padding: 1em 0;
+  text-align: left !important;
+}
+/* line 29, ../sass/_calendar.scss */
+.simcal-week-day:not(last-of-type) {
+  border-right: none;
+}
+
+/* line 34, ../sass/_calendar.scss */
+.simcal-day-label.simcal-day-number {
+  font-family: "Raleway";
+  padding: 0.5em;
+  text-align: left;
+}
+
+/* line 40, ../sass/_calendar.scss */
+.simcal-day {
+  background-color: #FFF;
+}
+
 /* line 1, ../sass/_header.scss */
 header {
   padding: 0.5em;
@@ -210,10 +257,11 @@ footer {
 
 /* line 10, ../sass/_siteSection.scss */
 .section-title {
+  font-size: 1.5em;
   text-align: center;
 }
 
-/* line 14, ../sass/_siteSection.scss */
+/* line 15, ../sass/_siteSection.scss */
 .inner-container {
   max-width: 980px;
   margin: 0 auto;

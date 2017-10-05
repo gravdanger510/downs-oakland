@@ -27,8 +27,10 @@ get_header(); ?>
       </section>
 
       <section class="site-section dark-section">
-        <h2 class="section-title">Calendar</h2>
-        <iframe src="https://calendar.google.com/calendar/embed?src=downsoakland%40gmail.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <h2 class="section-title">Event Calendar</h2>
+
+        <?php echo do_shortcode('[calendar id="10"]') ?>
+        <?php echo do_shortcode('[calendar id="35"]') ?>
       </section>
 
       <section class="site-section">
