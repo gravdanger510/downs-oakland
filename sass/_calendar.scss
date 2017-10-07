@@ -7,7 +7,7 @@
 }
 
 .simcal-calendar-head {
-  background-color: $main-color;
+  background-color: $black;
 
   tr:first-of-type {
     border-bottom: $table-border;
@@ -20,11 +20,10 @@
 }
 
 .simcal-week-day {
-  background-color: #E5E5E5;
-  color: $black;
+  background-color: $black;
+  color: $white;
   font-family: $header-font-family;
-  padding: $base-spacing 0;
-  text-align: left !important;
+  padding: $base-spacing;
 
   &:not(last-of-type) {
     border-right: $table-border;

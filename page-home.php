@@ -22,20 +22,19 @@ get_header(); ?>
         </div>
       </div>
 
-      <section class="site-section">
+      <!-- <section class="site-section">
         <h2 class="section-title">Announcements</h2>
-      </section>
+      </section> -->
 
       <section class="site-section dark-section">
         <h2 class="section-title">Event Calendar</h2>
 
-        <?php echo do_shortcode('[calendar id="10"]') ?>
         <?php echo do_shortcode('[calendar id="35"]') ?>
       </section>
 
-      <section class="site-section">
+      <!-- <section class="site-section">
         <h2 class="section-title">Media Gallery</h2>
-      </section>
+      </section> -->
 
 
 		</main><!-- #main -->
