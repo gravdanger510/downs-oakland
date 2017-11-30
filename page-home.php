@@ -22,6 +22,14 @@ get_header(); ?>
         </div>
       </div>
 
+      <div class="site-section service-times-section">
+        <ul class="service-times">
+          <li>Service Times:</li>
+          <li>9:30 Sunday School</li>
+          <li>10:30 Regular School</li>
+        </ul>
+      </div>
+
       <!-- <section class="site-section">
         <h2 class="section-title">Announcements</h2>
       </section> -->

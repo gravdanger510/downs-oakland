@@ -185,6 +185,26 @@ header {
   font-size: 2em;
 }
 
+/* line 38, ../sass/_home.scss */
+.service-times {
+  margin: 0 auto;
+}
+
+/* line 42, ../sass/_home.scss */
+.service-times li {
+  display: inline-block;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+/* line 47, ../sass/_home.scss */
+.service-times li:not(:first-child) {
+  margin-left: 0.5em;
+}
+/* line 51, ../sass/_home.scss */
+.service-times li:first-child {
+  font-family: "Raleway";
+}
+
 /* line 1, ../sass/_footer.scss */
 footer {
   width: 100%;
@@ -255,13 +275,20 @@ footer {
 }
 
 /* line 10, ../sass/_siteSection.scss */
+.service-times-section {
+  background-color: #29292C;
+  color: #FFF;
+  text-align: center;
+}
+
+/* line 16, ../sass/_siteSection.scss */
 .section-title {
   font-size: 1.5em;
   margin-bottom: 2em;
   text-align: center;
 }
 
-/* line 16, ../sass/_siteSection.scss */
+/* line 22, ../sass/_siteSection.scss */
 .inner-container {
   max-width: 980px;
   margin: 0 auto;
@@ -281,4 +308,13 @@ h6 {
 /* line 11, ../sass/_type.scss */
 h1 {
   font-size: 2em;
+}
+
+/* line 15, ../sass/_type.scss */
+*,
+html,
+body,
+html body,
+html * {
+  font-family: 1em;
 }
