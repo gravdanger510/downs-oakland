@@ -45,16 +45,9 @@
         <p class="footer-p">
           Send us a message, we’d love to hear from you!
         </p>
-        <form class="footer-form" action="index.html" method="post">
-          <label>Name <br />
-            <input class="footer-input" type="text" name="name" /><br />
-          </label>
-          <label>Email Address <br />
-            <input class="footer-input" type="text" name="email" /><br />
-          </label>
-          <label>Message <br />
-            <textarea class="footer-input" name="Message"></textarea><br />
-          </label>
+
+        <a class="button form-button" href="https://tyler208.typeform.com/to/xhmOP2" target="_blank">Contact Us</a>
+        <?php do_shortcode('[wpforms id="22" title="false" description="false"]') ?>
         </form>
       </div>
     </div>

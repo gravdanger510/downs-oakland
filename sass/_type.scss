@@ -15,7 +15,20 @@ h1 {
 *,
 html,
 body,
-html body,
-html * {
-  font-family: $base-font-size;
+p {
+  font-family: $base-font-family;
+}
+
+.page-title {
+  font-size: $large-font-size;
+}
+
+.section-title,
+.program-title {
+  font-size: $medium-font-size;
+  margin-bottom: $base-spacing;
+}
+
+.section-title {
+  text-align: center;
 }

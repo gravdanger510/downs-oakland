@@ -1,0 +1,16 @@
+.program-sidebar {
+  float: left;
+}
+
+.program-list {
+  float: left;
+}
+
+.program-section {
+  padding: 0 $section-padding $section-padding $section-padding;
+  width: 100%;
+}
+
+.program-copy {
+  max-width: $site-max-width;
+}

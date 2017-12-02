@@ -263,6 +263,49 @@ footer {
   margin-bottom: 0.5em;
 }
 
+/* line 1, ../sass/_forms.scss */
+button,
+.button {
+  background-color: #0086FA;
+  border-radius: 50px;
+  color: #FFF;
+  font-family: "Raleway";
+  padding: 1em 2em;
+  text-decoration: none;
+}
+/* line 10, ../sass/_forms.scss */
+button:hover,
+.button:hover {
+  background-color: #0065CC;
+  color: #FFF;
+}
+
+/* line 16, ../sass/_forms.scss */
+.form-button {
+  margin-top: 0.5em;
+}
+
+/* line 1, ../sass/_programs.scss */
+.program-sidebar {
+  float: left;
+}
+
+/* line 5, ../sass/_programs.scss */
+.program-list {
+  float: left;
+}
+
+/* line 9, ../sass/_programs.scss */
+.program-section {
+  padding: 0 5em 5em 5em;
+  width: 100%;
+}
+
+/* line 14, ../sass/_programs.scss */
+.program-copy {
+  max-width: 700px;
+}
+
 /* line 1, ../sass/_siteSection.scss */
 .site-section {
   padding: 5em;
@@ -282,15 +325,8 @@ footer {
 }
 
 /* line 16, ../sass/_siteSection.scss */
-.section-title {
-  font-size: 1.5em;
-  margin-bottom: 2em;
-  text-align: center;
-}
-
-/* line 22, ../sass/_siteSection.scss */
 .inner-container {
-  max-width: 980px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -314,7 +350,23 @@ h1 {
 *,
 html,
 body,
-html body,
-html * {
-  font-family: 1em;
+p {
+  font-family: "Lora";
+}
+
+/* line 22, ../sass/_type.scss */
+.page-title {
+  font-size: 2em;
+}
+
+/* line 26, ../sass/_type.scss */
+.section-title,
+.program-title {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* line 32, ../sass/_type.scss */
+.section-title {
+  text-align: center;
 }
