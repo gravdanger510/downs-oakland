@@ -32,7 +32,7 @@
 		<div class="site-branding">
 			<?php the_custom_logo() ;?>
 		</div><!-- .site-branding -->
-		<nav id="site-navigation" class="main-navigation">
+		<!-- <nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'downsoakland' ); ?></button>
 			<?php
 				wp_nav_menu( array(
@@ -40,7 +40,7 @@
 					'menu_id'        => 'primary-menu',
 				) );
 			?>
-		</nav><!-- #site-navigation -->
+		</nav>#site-navigation -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
