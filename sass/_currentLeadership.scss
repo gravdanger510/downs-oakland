@@ -1,0 +1,11 @@
+.current-leadership {
+  align-items: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-cotent: flex-start;
+}
+
+.leader {
+  flex: 1 0 auto;
+  max-width: 230px;
+}

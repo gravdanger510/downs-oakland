@@ -1,5 +1,7 @@
 .site-section {
+  display: inline-block;
   padding: $section-padding;
+  margin-bottom: $large-spacing;
   width: 100%;
 }
 
@@ -14,6 +16,22 @@
 }
 
 .inner-container {
+  clear: both;
   max-width: $site-max-width;
   margin: 0 auto;
+}
+
+.half-column {
+  float: left;
+  width: 45%;
+
+  &:not(firt-child) {
+    margin-left: 5%;
+  }
+}
+
+.site-video,
+.site-image {
+  width: 100%;
+  height: auto;
 }
