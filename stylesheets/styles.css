@@ -125,34 +125,56 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../sass/_header.scss */
 header {
-  padding: 0.5em;
+  background-color: #29292C;
+  padding: 1.5em 1em 1em;
   position: fixed;
   width: 100%;
   z-index: 1;
 }
 
-/* line 8, ../sass/_header.scss */
+/* line 9, ../sass/_header.scss */
 .site-branding {
   float: left;
 }
-/* line 11, ../sass/_header.scss */
+/* line 12, ../sass/_header.scss */
 .site-branding img {
   height: auto;
   width: 13em;
 }
 
-/* line 17, ../sass/_header.scss */
+/* line 18, ../sass/_header.scss */
 .main-navigation {
-  color: #FFF;
   float: right;
+}
+/* line 21, ../sass/_header.scss */
+.main-navigation a {
+  color: #FFF;
+  font-family: "Raleway";
+  font-size: 0.85em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   width: unset;
 }
-/* line 22, ../sass/_header.scss */
+/* line 30, ../sass/_header.scss */
+.main-navigation a:hover {
+  color: #FFF;
+}
+/* line 35, ../sass/_header.scss */
 .main-navigation li {
   text-decoration: none;
 }
+/* line 38, ../sass/_header.scss */
+.main-navigation li:not(last-of-type) {
+  margin-right: 1em;
+}
 
-/* line 27, ../sass/_header.scss */
+/* line 44, ../sass/_header.scss */
+.page-template-page-home-php header {
+  background-color: unset;
+}
+
+/* line 48, ../sass/_header.scss */
 #site-navigation {
   width: auto;
 }
@@ -321,6 +343,16 @@ button:hover,
 }
 
 /* line 1, ../sass/_layout.scss */
+main {
+  padding-top: 6em;
+}
+
+/* line 5, ../sass/_layout.scss */
+.page-template-page-home-php main {
+  padding-top: unset;
+}
+
+/* line 10, ../sass/_layout.scss */
 .site-section {
   display: inline-block;
   padding: 5em;
@@ -328,36 +360,36 @@ button:hover,
   width: 100%;
 }
 
-/* line 8, ../sass/_layout.scss */
+/* line 17, ../sass/_layout.scss */
 .dark-section {
   background-color: #F5F5F5;
 }
 
-/* line 12, ../sass/_layout.scss */
+/* line 21, ../sass/_layout.scss */
 .service-times-section {
   background-color: #29292C;
   color: #FFF;
   text-align: center;
 }
 
-/* line 18, ../sass/_layout.scss */
+/* line 27, ../sass/_layout.scss */
 .inner-container {
   clear: both;
   max-width: 735px;
   margin: 0 auto;
 }
 
-/* line 24, ../sass/_layout.scss */
+/* line 33, ../sass/_layout.scss */
 .half-column {
   float: left;
   width: 45%;
 }
-/* line 28, ../sass/_layout.scss */
+/* line 37, ../sass/_layout.scss */
 .half-column:not(firt-child) {
   margin-left: 5%;
 }
 
-/* line 33, ../sass/_layout.scss */
+/* line 42, ../sass/_layout.scss */
 .site-video,
 .site-image {
   width: 100%;

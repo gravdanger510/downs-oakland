@@ -70,14 +70,14 @@ get_header(); ?>
           </div>
           <div class="half-column">
             <p>
-              <img class="site-image" src="http://downsoakland.org/20170430_13.jpg" />
+              <img class="site-image" src="http://downsoakland.org/Sanctuary%20before%20remodel.jpg" />
             </p>
           </div>
         </div>
         <div class="inner-container">
           <div class="half-column">
             <p>
-              <img class="site-image" src="http://downsoakland.org/20170430_13.jpg" />
+              <img class="site-image" src="http://downsoakland.org/Photo%20of%20front%20of%20church.jpg" />
             </p>
           </div>
           <div class="half-column">

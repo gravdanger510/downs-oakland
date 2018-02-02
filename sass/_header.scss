@@ -1,5 +1,6 @@
 header {
-  padding: $small-spacing;
+  background-color: $black;
+  padding: ($base-spacing + $small-spacing) $base-spacing $base-spacing;
   position: fixed;
   width: 100%;
   z-index: $header-z-index;
@@ -14,14 +15,34 @@ header {
   }
 }
 
-.main-navigation {
-  color: $white;
+.main-navigation{
   float: right;
-  width: unset;
+
+  a {
+    color: $white;
+    font-family: $header-font-family;
+    font-size: $small-font-size;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: unset;
+
+    &:hover {
+      color: $white;
+    }
+  }
 
   li {
     text-decoration: none;
+
+    &:not(last-of-type) {
+      margin-right: $base-spacing;
+    }
   }
+}
+
+.page-template-page-home-php header {
+  background-color: unset;
 }
 
 #site-navigation {
