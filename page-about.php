@@ -11,57 +11,54 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
-      <div class="inner-container">
-
-        <h1 class="page-title">About Downs</h1>
-        <p class="page-intro">As the church of Jesus Christ, we are committed to becoming and being a place of transformation and possibility where we equip and excite people for the work of holistic ministry.</p>
-        <!-- <video class="site-video" controls="true"  src="https://player.vimeo.com/external/212286321.hd.mp4?s=f2187a3be078ff189be55ac6ce307e306793693e&profile_id=119"></video> -->
-        <iframe src="https://player.vimeo.com/video/212286321" width="735" height="413" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-      </div>
+      <section class="site-section dark-section first-section">
+        <div class="inner-container">
+          <h1 class="page-title">About Downs</h1>
+          <p class="page-intro">As the church of Jesus Christ, we are committed to becoming and being a place of transformation and possibility where we equip and excite people for the work of holistic ministry.</p>
+          <iframe src="https://player.vimeo.com/video/212286321" width="735" height="413" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </section>
+      <!-- <div class="section-padding"></div> -->
       <section class="site-section">
         <div class="inner-container">
-          <h2 class="section-title">Pastor Anthony</h2>
+          <h2 class="section-title">Reverend Harold Gordon</h2>
           <div class="half-column">
             <img class="site-image" src="http://downsoakland.org/20170430_13.jpg" />
           </div>
           <div class="half-column">
-            <p>
-              Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo.
-            </p>
-            <p>
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-            </p>
+            <p>Reverend Gordon and his wife Collett came to Down in 2016 from New Francis Brown UMC in South Carolina. You can reach him at 510-654-5858</p>
           </div>
         </div>
       </section>
-      <section class="site-section">
+      <section class="site-section dark-section">
         <h2 class="section-title">
           Current Leadership
         </h2>
 
         <div class="current-leadership inner-container">
           <div class="leader">
-            <h3 class="leader-title">Lorem Ipsum</h3>
-            <p class="leader-description">Maecenas sed diam eget risus varius blandit sit amet non magna.</h3>
+            <h3 class="leader-title">Joe McKenzie</h3>
+            <p class="leader-description">Administrative Council Chair<br />510-527-0457</h3>
           </div>
 
           <div class="leader">
-            <h3 class="leader-title">Lorem Ipsum</h3>
-            <p class="leader-description">Maecenas sed diam eget risus varius blandit sit amet non magna.</h3>
+            <h3 class="leader-title">Jim Taylor</h3>
+            <p class="leader-description">Lay Leader<br />510-772-7589</h3>
           </div>
 
           <div class="leader">
-            <h3 class="leader-title">Lorem Ipsum</h3>
-            <p class="leader-description">Maecenas sed diam eget risus varius blandit sit amet non magna.</h3>
+            <h3 class="leader-title">Dale Jackson</h3>
+            <p class="leader-description">Staff Pastor Parish Relations Chair<br />510-418-6732</h3>
+          </div>
+
+          <div class="leader">
+            <h3 class="leader-title">Steve Mitchell</h3>
+            <p class="leader-description">Finance Chair<br />510-847-1032</h3>
           </div>
         </div>
-
-
       </section>
       <section class="site-section">
-        <div class="inner-container">
+        <div class="inner-container bottom-container">
           <h2 class="section-title">History of Downs</h2>
           <div class="half-column">
             <p>

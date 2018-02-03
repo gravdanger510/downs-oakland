@@ -24,12 +24,21 @@ footer {
   align-items: space-around;
   display: flex;
   justify-content: space-evenly;
+
+  @media (max-width: $site-max-width * 0.85) {
+    display: unset;
+  }
 }
 
 .footer-column {
   float: left;
   max-width: 20em;
   width: 50%;
+
+  @media (max-width: $site-max-width * 0.85) {
+    max-width: unset;
+    width: 100%;
+  }
 }
 
 .footer-title {

@@ -1,17 +1,15 @@
-main {
-  padding-top: $large-spacing * 3;
-}
-
-.page-template-page-home-php main {
-  padding-top: unset;
-}
-
-
 .site-section {
   display: inline-block;
   padding: $section-padding;
-  margin-bottom: $large-spacing;
   width: 100%;
+
+  &.first-section {
+    padding-top: $large-spacing * 3;
+  }
+}
+
+.section-padding {
+  height: $large-spacing;
 }
 
 .dark-section {
@@ -30,12 +28,25 @@ main {
   margin: 0 auto;
 }
 
+.bottom-container {
+  padding-top: $base-spacing;
+}
+
 .half-column {
   float: left;
   width: 45%;
 
-  &:not(firt-child) {
+  &:not(first-child) {
     margin-left: 5%;
+  }
+
+  @media (max-width: $site-max-width * 0.85) {
+    margin-left: 0;
+    width: 100%;
+
+    &:not(first-child) {
+      margin-left: unset;
+    }
   }
 }
 

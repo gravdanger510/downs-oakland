@@ -120,7 +120,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 8, ../sass/_currentLeadership.scss */
 .leader {
   flex: 1 0 auto;
-  max-width: 230px;
 }
 
 /* line 1, ../sass/_header.scss */
@@ -147,7 +146,8 @@ header {
   float: right;
 }
 /* line 21, ../sass/_header.scss */
-.main-navigation a {
+.main-navigation a,
+.main-navigation a:visited {
   color: #FFF;
   font-family: "Raleway";
   font-size: 0.85em;
@@ -156,25 +156,26 @@ header {
   text-transform: uppercase;
   width: unset;
 }
-/* line 30, ../sass/_header.scss */
-.main-navigation a:hover {
+/* line 31, ../sass/_header.scss */
+.main-navigation a:hover,
+.main-navigation a:visited:hover {
   color: #FFF;
 }
-/* line 35, ../sass/_header.scss */
+/* line 36, ../sass/_header.scss */
 .main-navigation li {
   text-decoration: none;
 }
-/* line 38, ../sass/_header.scss */
+/* line 39, ../sass/_header.scss */
 .main-navigation li:not(last-of-type) {
   margin-right: 1em;
 }
 
-/* line 44, ../sass/_header.scss */
+/* line 45, ../sass/_header.scss */
 .page-template-page-home-php header {
   background-color: unset;
 }
 
-/* line 48, ../sass/_header.scss */
+/* line 49, ../sass/_header.scss */
 #site-navigation {
   width: auto;
 }
@@ -273,28 +274,41 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 624.75px) {
+  /* line 23, ../sass/_footer.scss */
+  .footer-inner-container {
+    display: unset;
+  }
+}
 
-/* line 29, ../sass/_footer.scss */
+/* line 33, ../sass/_footer.scss */
 .footer-column {
   float: left;
   max-width: 20em;
   width: 50%;
 }
+@media (max-width: 624.75px) {
+  /* line 33, ../sass/_footer.scss */
+  .footer-column {
+    max-width: unset;
+    width: 100%;
+  }
+}
 
-/* line 35, ../sass/_footer.scss */
+/* line 44, ../sass/_footer.scss */
 .footer-title {
   font-size: 1.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 41, ../sass/_footer.scss */
+/* line 50, ../sass/_footer.scss */
 .footer-form label,
 .footer-form input[type="text"],
 .footer-form textarea {
   width: 100%;
 }
 
-/* line 49, ../sass/_footer.scss */
+/* line 58, ../sass/_footer.scss */
 .footer-input {
   margin-bottom: 0.5em;
 }
@@ -343,53 +357,67 @@ button:hover,
 }
 
 /* line 1, ../sass/_layout.scss */
-main {
-  padding-top: 6em;
-}
-
-/* line 5, ../sass/_layout.scss */
-.page-template-page-home-php main {
-  padding-top: unset;
-}
-
-/* line 10, ../sass/_layout.scss */
 .site-section {
   display: inline-block;
   padding: 5em;
-  margin-bottom: 2em;
   width: 100%;
 }
+/* line 6, ../sass/_layout.scss */
+.site-section.first-section {
+  padding-top: 6em;
+}
 
-/* line 17, ../sass/_layout.scss */
+/* line 11, ../sass/_layout.scss */
+.section-padding {
+  height: 2em;
+}
+
+/* line 15, ../sass/_layout.scss */
 .dark-section {
   background-color: #F5F5F5;
 }
 
-/* line 21, ../sass/_layout.scss */
+/* line 19, ../sass/_layout.scss */
 .service-times-section {
   background-color: #29292C;
   color: #FFF;
   text-align: center;
 }
 
-/* line 27, ../sass/_layout.scss */
+/* line 25, ../sass/_layout.scss */
 .inner-container {
   clear: both;
   max-width: 735px;
   margin: 0 auto;
 }
 
-/* line 33, ../sass/_layout.scss */
+/* line 31, ../sass/_layout.scss */
+.bottom-container {
+  padding-top: 1em;
+}
+
+/* line 35, ../sass/_layout.scss */
 .half-column {
   float: left;
   width: 45%;
 }
-/* line 37, ../sass/_layout.scss */
-.half-column:not(firt-child) {
+/* line 39, ../sass/_layout.scss */
+.half-column:not(first-child) {
   margin-left: 5%;
 }
+@media (max-width: 624.75px) {
+  /* line 35, ../sass/_layout.scss */
+  .half-column {
+    margin-left: 0;
+    width: 100%;
+  }
+  /* line 47, ../sass/_layout.scss */
+  .half-column:not(first-child) {
+    margin-left: unset;
+  }
+}
 
-/* line 42, ../sass/_layout.scss */
+/* line 53, ../sass/_layout.scss */
 .site-video,
 .site-image {
   width: 100%;

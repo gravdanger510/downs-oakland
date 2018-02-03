@@ -13,7 +13,7 @@ get_header(); ?>
 		<main id="main" class="site-main">
 
       <div class="hero-container">
-        <video autoplay loop muted plasinline class="hero-video" type="video/mp4">
+        <video autoplay loop muted playsinline class="hero-video" type="video/mp4">
           <source src="https://player.vimeo.com/external/232157127.hd.mp4?s=5afb8b6971792b44d5c2fd237dcd4dd9fdcc7e68&profile_id=174" />
         </video>
         <div class="hero-content">
@@ -36,8 +36,9 @@ get_header(); ?>
 
       <section class="site-section dark-section">
         <h2 class="section-title">Event Calendar</h2>
-
-        <?php echo do_shortcode('[calendar id="35"]') ?>
+        <div class="inner-container">
+          <?php echo do_shortcode('[calendar id="35"]') ?>
+        </div>
       </section>
 
       <!-- <section class="site-section">
